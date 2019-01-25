@@ -1,5 +1,7 @@
 # ThinkCap - Fast Multi-platform Nerual Networks.
 
+[![Build Status](https://travis-ci.org/thinkcap/ThinkCap-core.svg?branch=master)](https://travis-ci.org/thinkcap/ThinkCap-core)
+
 An easy to use neural network library written in Rust based on [RustNN](https://github.com/jackm321/rustNN).
 
 ## Description
