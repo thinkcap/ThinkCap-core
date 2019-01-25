@@ -3,7 +3,7 @@
 An easy to use neural network library written in Rust based on [RustNN](https://github.com/jackm321/rustNN).
 
 ## Description
-ThinkCap is a [feedforward neural network ](http://en.wikipedia.org/wiki/Feedfrward_neural_network) library. The library
+ThinkCap is a [feedforward neural network ](http://en.wikipedia.org/wiki/Feedforward_neural_network) library. The library
 generates fully connected multi-layer artificial neural networks that
 are trained via [backpropagation](http://en.wikipedia.org/wiki/Backpropagation). Networks are trained using an incremental training mode.
 
