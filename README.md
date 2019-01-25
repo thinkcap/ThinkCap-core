@@ -1,21 +1,13 @@
-# RustNN
+# ThinkCap - Fast Multi-platform Nerual Networks.
 
-[![Build Status](https://travis-ci.org/jackm321/RustNN.svg?branch=master)](https://travis-ci.org/jackm321/RustNN)
-
-An easy to use neural network library written in Rust.
-
-[Crate](https://crates.io/crates/nn)
-  
-[Documentation](https://jackm321.github.io/RustNN/doc/nn/)
+An easy to use neural network library written in Rust based on [RustNN](https://github.com/jackm321/rustNN).
 
 ## Description
-RustNN is a [feedforward neural network ](http://en.wikipedia.org/wiki/Feedforward_neural_network)
-library. The library
+ThinkCap is a [feedforward neural network ](http://en.wikipedia.org/wiki/Feedfrward_neural_network) library. The library
 generates fully connected multi-layer artificial neural networks that
-are trained via [backpropagation](http://en.wikipedia.org/wiki/Backpropagation).
-Networks are trained using an incremental training mode.
+are trained via [backpropagation](http://en.wikipedia.org/wiki/Backpropagation). Networks are trained using an incremental training mode.
 
-## XOR example
+<!--## XOR example
 
 This example creates a neural network with `2` nodes in the input layer,
 a single hidden layer containing `3` nodes, and `1` node in the output layer.
@@ -61,4 +53,4 @@ for &(ref inputs, ref outputs) in examples.iter() {
     let (result, key) = (results[0].round(), outputs[0]);
     assert!(result == key);
 }
-```
+```-->
