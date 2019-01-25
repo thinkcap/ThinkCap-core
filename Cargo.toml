@@ -1,6 +1,6 @@
 [package]
 
-name = "ThinkCap"
+name = "think_cap"
 version = "0.0.1"
 authors = ["Avery Wagar <ajmw.subs@gmail.com>"]
 repository = "https://github.com/thinkcap/ThinkCap-core"

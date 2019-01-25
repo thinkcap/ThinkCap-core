@@ -19,7 +19,7 @@
 //! for more details.
 //!
 //! ```rust
-//! use nn::{NN, HaltCondition};
+//! use think_cap::{NN, HaltCondition};
 //!
 //! // create examples of the XOR function
 //! // the network is trained on tuples of vectors where the first vector

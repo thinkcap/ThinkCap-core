@@ -4,13 +4,13 @@ extern crate time;
 use think_cap::{NN, HaltCondition, LearningMode};
 
 #[test]
-fn xor_4layers() {
+fn match_4_layers() {
     // create examples of the xor function
     let examples = [
-        (vec![0f64, 0f64], vec![0f64]),
-        (vec![0f64, 1f64], vec![1f64]),
-        (vec![1f64, 0f64], vec![1f64]),
-        (vec![1f64, 1f64], vec![0f64]),
+        (vec![0f64, 0f64], vec![1f64]),
+        (vec![0f64, 1f64], vec![0f64]),
+        (vec![1f64, 0f64], vec![0f64]),
+        (vec![1f64, 1f64], vec![1f64]),
     ];
 
     // create a new neural network
